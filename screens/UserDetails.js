@@ -24,7 +24,6 @@ const UserDetails = ({route, navigation}) => {
         })
     }
 
-    /* inspired by: https://www.kindacode.com/article/how-to-create-a-confirm-dialog-in-react-native/ */
     const showConfirmDialog = () => {
         return Alert.alert(
           "Are your sure?",
